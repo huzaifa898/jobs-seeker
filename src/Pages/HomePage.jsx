@@ -8,7 +8,7 @@ function HomePage() {
     <div>
       <Hero title='Become A React developer' subtitle='Find Your Own Job'/>
       <HomeCard/>
-      <Joblistings/>
+      <Joblistings isHome={true}/>
       <VeiwAllJobs/>
     </div>
   )
