@@ -12,6 +12,7 @@
     "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.14.1",
+    "react-toastify": "^10.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -20,9 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch src/jobs.json --port 8000"
-  },  
-  
-
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
